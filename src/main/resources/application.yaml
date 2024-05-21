@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spotify
+  boot:
+    parent:
+      groupId: org.springframework.boot
+      artifactId: spring-boot-starter-parent
+      version: 3.2.5
+  cloud:
+    version: 2023.0.1
+  java:
+    version: 21
+spotify:
+  api:
+    url: https://accounts.spotify.com
